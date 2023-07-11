@@ -1,0 +1,22 @@
+.lesson-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+    padding: 2rem;
+}
+.card {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+  }
+  
+  .card-content {
+    font-size: 1em;
+  }
+  
