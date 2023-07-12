@@ -1,8 +1,14 @@
+.lesson-title{
+  color: #ffffff;
+  font-size: 5rem;
+  text-align: center;
+}
+
 .lesson-grid{
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 10rem;
 }
 .card {
     padding: 1.5rem;

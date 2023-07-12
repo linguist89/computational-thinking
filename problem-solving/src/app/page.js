@@ -10,15 +10,18 @@ export default function Home() {
               <Image src={HeaderLogo} alt="Logo" className="logo" />
           </div>
           <div className="buttons-container">
-              <button className="header-button">Button 1</button>
-              <button className="header-button">Button 2</button>
-              <button className="header-button">Button 3</button>
+              <button className="header-button">About</button>
+              <button className="header-button">Contact</button>
           </div>
       </header>
       <main>
         <Lessons></Lessons>
       </main>
-      <footer>Footer</footer>
+      <footer className="footer">
+          <div className="logo-container">
+              <Image src={HeaderLogo} alt="Logo" className="logo" />
+          </div>
+      </footer>
     </>
   )
 }
