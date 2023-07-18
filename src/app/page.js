@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import HeaderLogo from './static/images/chcaa_logo.png';
-import Lessons from './Lessons';
+import Lessons from '../../pages/Lessons';
 
 export default function Home() {
   return (
