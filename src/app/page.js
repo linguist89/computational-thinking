@@ -18,9 +18,6 @@ export default function Home() {
         <Lessons></Lessons>
       </main>
       <footer className="footer">
-          <div className="logo-container">
-              <Image src={HeaderLogo} alt="Logo" className="logo" />
-          </div>
       </footer>
     </>
   )

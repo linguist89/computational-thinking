@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #FFFFFF;
+  background-color: #D9D9D9;
 }
 
 .footer {
@@ -11,7 +11,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #8eb2d8;
+  background-color: #E9EDF1;
   text-align: center;
   padding: 1.25rem 0;
 }
@@ -48,7 +48,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.6rem 1.2rem;
-  background-color: #8eb2d8;
+  background-color: #E9EDF1;
 }
 
 .footer{
@@ -73,7 +73,7 @@ body {
 .header-button {
   padding: 0.6rem 1.2rem;
   border: none;
-  background-color: #6A7096;
+  background-color: #0F918D;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;

@@ -9,12 +9,12 @@ export default function Lessons() {
             <div className="lesson-grid">
                 {lessons.map((lesson, index) => {
                     return (
-                        <Link 
-                            href={{ 
+                        <Link
+                            href={{
                                 pathname: "/[lesson]",
-                                query: { lesson: `lesson-${index+1}` }
-                            }} 
-                            as={`/lesson-${index+1}`}
+                                query: { lesson: `lesson-${index + 1}` }
+                            }}
+                            as={`/lesson-${index + 1}`}
                             key={index}
                             passHref
                         >
